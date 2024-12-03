@@ -52,7 +52,7 @@ jobs:
       - name: Compile Arduino Sketch for uno
         run: |
           mkdir -p build  # Ensure the build directory exists
-          arduino-cli compile --fqbn arduino:avr:uno:cpu=atmega328old --output-dir build HWPart/TicTacToe/TicTacToe.ino
+          arduino-cli compile --fqbn arduino:avr:uno --output-dir build HWPart/TicTacToe/TicTacToe.ino
 
       # Collect binaries as artifacts
       - name: Upload binaries
