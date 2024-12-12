@@ -7,6 +7,7 @@ char currentPlayer = 'X';
 bool gameOver = false;
 int gameMode = 0;
 
+
 void initializeBoard() {
     for (int i = 0; i < BOARD_SIZE; i++) {
         for (int j = 0; j < BOARD_SIZE; j++) {

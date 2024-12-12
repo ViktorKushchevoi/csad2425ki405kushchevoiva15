@@ -6,7 +6,6 @@ import tkinter as tk
 from tkinter import ttk, scrolledtext
 from tkinter import messagebox
 
-
 class UARTCommunication:
     def __init__(self):
         self.ser = None
